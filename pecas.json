@@ -1,0 +1,751 @@
+{
+  "titulo": "Desapego",
+  "whatsapp": "5561999449043",
+  "whatsapp_exibicao": "(61) 99944-9043",
+  "retirada": "Sudoeste (Brasília)",
+  "tamanhos": "PP ao GG",
+  "aceita_propostas": true,
+  "pecas": [
+    {
+      "numero": 1,
+      "nome": "Sapatilha bordada Belluno",
+      "categoria": "Sapato",
+      "descricao": "Bico fino, bordado colorido e camurça vermelha.",
+      "tamanho": "36",
+      "preco": 50,
+      "destaque": true,
+      "grupo": "Especiais",
+      "fotos": [
+        "fotos/01-sapatilha-bordada-belluno-1.jpg",
+        "fotos/01-sapatilha-bordada-belluno-2.jpg"
+      ]
+    },
+    {
+      "numero": 2,
+      "nome": "Bolsa Santa Lolla",
+      "categoria": "Bolsa",
+      "descricao": "Tote nude com detalhes dourados, bolso interno com zíper.",
+      "tamanho": null,
+      "preco": 60,
+      "destaque": true,
+      "grupo": "Especiais",
+      "fotos": [
+        "fotos/02-bolsa-santa-lolla-1.jpg",
+        "fotos/02-bolsa-santa-lolla-2.jpg"
+      ]
+    },
+    {
+      "numero": 3,
+      "nome": "Vestido tricô listrado neon",
+      "categoria": "Vestido",
+      "descricao": "Listras em verde-limão, pink, azul-marinho e amarelo. Muito alegre.",
+      "tamanho": null,
+      "preco": 45,
+      "destaque": true,
+      "grupo": "Especiais",
+      "fotos": [
+        "fotos/03-trico-listrado-neon.jpg"
+      ]
+    },
+    {
+      "numero": 4,
+      "nome": "Top tricô branco com laço",
+      "categoria": "Top",
+      "descricao": "Tricô canelado off-white com nó frontal e faixas de amarrar.",
+      "tamanho": null,
+      "preco": 30,
+      "destaque": false,
+      "grupo": "Especiais",
+      "fotos": [
+        "fotos/04-top-trico-branco-com-laco.jpg"
+      ]
+    },
+    {
+      "numero": 5,
+      "nome": "Body preto com fivelas",
+      "categoria": "Top",
+      "descricao": "Decote com recortes e fivelas prateadas, alcinhas finas.",
+      "tamanho": "PP",
+      "preco": 25,
+      "destaque": false,
+      "nova": true,
+      "grupo": "Especiais",
+      "fotos": [
+        "fotos/05-body-preto-com-fivelas.jpg"
+      ]
+    },
+    {
+      "numero": 6,
+      "nome": "Top tricô caramelo decote V",
+      "categoria": "Top",
+      "descricao": "Tricô canelado, decote V e alça larga.",
+      "tamanho": null,
+      "preco": 30,
+      "destaque": false,
+      "grupo": "Especiais",
+      "fotos": [
+        "fotos/06-top-trico-caramelo-decote-v.jpg"
+      ]
+    },
+    {
+      "numero": 7,
+      "nome": "Tênis All Star caramelo",
+      "categoria": "Tênis",
+      "descricao": "Cano baixo em material sintético caramelo, ilhoses dourados.",
+      "tamanho": null,
+      "preco": 50,
+      "destaque": false,
+      "grupo": "Especiais",
+      "fotos": [
+        "fotos/07-tenis-all-star-caramelo.jpg"
+      ]
+    },
+    {
+      "numero": 8,
+      "nome": "Saia de tricô vazada",
+      "categoria": "Saia",
+      "descricao": "Tricô preto em trama aberta, cós canelado.",
+      "tamanho": null,
+      "preco": 35,
+      "destaque": false,
+      "nova": true,
+      "grupo": "Especiais",
+      "fotos": [
+        "fotos/08-saia-de-trico-vazada.jpg"
+      ]
+    },
+    {
+      "numero": 9,
+      "nome": "Top tricô magenta",
+      "categoria": "Top",
+      "descricao": "Tricô com textura em faixas, alça larga.",
+      "tamanho": null,
+      "preco": 25,
+      "destaque": false,
+      "grupo": "Especiais",
+      "fotos": [
+        "fotos/09-top-trico-magenta.jpg"
+      ]
+    },
+    {
+      "numero": 10,
+      "nome": "Top tricô preto",
+      "categoria": "Top",
+      "descricao": "Mesmo modelo do magenta, textura em faixas.",
+      "tamanho": null,
+      "preco": 25,
+      "destaque": false,
+      "grupo": "Especiais",
+      "fotos": [
+        "fotos/10-top-trico-preto.jpg"
+      ]
+    },
+    {
+      "numero": 11,
+      "nome": "Short estampado tropical",
+      "categoria": "Short",
+      "descricao": "Estampa laranja e turquesa, com botão e bolsos.",
+      "tamanho": null,
+      "preco": 30,
+      "destaque": false,
+      "grupo": "Especiais",
+      "fotos": [
+        "fotos/11-short-estampado-tropical.jpg"
+      ]
+    },
+    {
+      "numero": 12,
+      "nome": "Bata turquesa bordada",
+      "categoria": "Blusa",
+      "descricao": "Bordado rosa com amarração e pompom na gola.",
+      "tamanho": null,
+      "preco": 35,
+      "destaque": false,
+      "nova": true,
+      "grupo": "Especiais",
+      "fotos": [
+        "fotos/12-bata-turquesa-bordada.jpg"
+      ]
+    },
+    {
+      "numero": 13,
+      "nome": "Bata branca bordada",
+      "categoria": "Blusa",
+      "descricao": "Tecido leve com bordados coloridos nas mangas.",
+      "tamanho": null,
+      "preco": 35,
+      "destaque": false,
+      "nova": true,
+      "grupo": "Especiais",
+      "fotos": [
+        "fotos/13-bata-branca-bordada.jpg"
+      ]
+    },
+    {
+      "numero": 56,
+      "nome": "Calça jeans escura Bluesteel",
+      "categoria": "Calça",
+      "descricao": "Nunca usada! Jeans escuro com pesponto aparente, cintura alta e perna reta.",
+      "tamanho": "34",
+      "preco": 70,
+      "destaque": false,
+      "nova": true,
+      "grupo": "Especiais",
+      "fotos": [
+        "fotos/56.png",
+        "fotos/57.png"
+      ]
+    },
+    {
+      "numero": 14,
+      "nome": "Regata pink com renda",
+      "categoria": "Blusa",
+      "descricao": "Canelada, com renda no busto e nas alças.",
+      "tamanho": null,
+      "preco": 20,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/14-regata-pink-com-renda.jpg"
+      ]
+    },
+    {
+      "numero": 15,
+      "nome": "Regata pink com renda Bluesteel",
+      "categoria": "Blusa",
+      "descricao": "Tecido leve com renda no decote, alças finas.",
+      "tamanho": "G",
+      "preco": 20,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/15-regata-pink-com-renda-bluesteel.jpg"
+      ]
+    },
+    {
+      "numero": 16,
+      "nome": "Cropped branco franzido",
+      "categoria": "Top",
+      "descricao": "Acetinado, com franzido no busto e alças finas.",
+      "tamanho": null,
+      "preco": 25,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/16-cropped-branco-franzido.jpg"
+      ]
+    },
+    {
+      "numero": 17,
+      "nome": "Vestido tricô cinza gola alta",
+      "categoria": "Vestido",
+      "descricao": "Canelado, manga longa e saia evasê. Bluesteel.",
+      "tamanho": "GG",
+      "preco": 60,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/17-vestido-trico-cinza-gola-alta-1.jpg",
+        "fotos/17-vestido-trico-cinza-gola-alta-2.jpg",
+        "fotos/17-vestido-trico-cinza-gola-alta-3.jpg"
+      ]
+    },
+    {
+      "numero": 18,
+      "nome": "Moletom “Winning is a habit”",
+      "categoria": "Moletom",
+      "descricao": "Cinza mescla e azul-petróleo, frase em alto-relevo.",
+      "tamanho": null,
+      "preco": 50,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/18-moletom-winning-is-a-habit.jpg"
+      ]
+    },
+    {
+      "numero": 19,
+      "nome": "Moletom verde-água Bluesteel",
+      "categoria": "Moletom",
+      "descricao": "Canguru com capuz, cor clarinha.",
+      "tamanho": "P",
+      "preco": 50,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/19-moletom-verde-agua-bluesteel.jpg"
+      ]
+    },
+    {
+      "numero": 20,
+      "nome": "Saia camurça caramelo",
+      "categoria": "Saia",
+      "descricao": "Toque de suede, com botões na lateral.",
+      "tamanho": null,
+      "preco": 35,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/20-saia-camurca-caramelo.jpg"
+      ]
+    },
+    {
+      "numero": 21,
+      "nome": "Body transpassado marinho",
+      "categoria": "Top",
+      "descricao": "Manga curta, decote transpassado. Unique Chic.",
+      "tamanho": null,
+      "preco": 25,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/21-body-transpassado-marinho.jpg"
+      ]
+    },
+    {
+      "numero": 22,
+      "nome": "Camiseta galáxia Youcom",
+      "categoria": "Blusa",
+      "descricao": "Cinza estonada com margaridas e planetas.",
+      "tamanho": null,
+      "preco": 25,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/22-camiseta-galaxia-youcom.jpg"
+      ]
+    },
+    {
+      "numero": 23,
+      "nome": "Havaianas rosê com glitter",
+      "categoria": "Sapato",
+      "descricao": "Tiras com glitter e logo dourado.",
+      "tamanho": "35-36",
+      "preco": 25,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/23-havaianas-rose-com-glitter-1.jpg",
+        "fotos/23-havaianas-rose-com-glitter-2.jpg"
+      ]
+    },
+    {
+      "numero": 24,
+      "nome": "Calça pantalona branca",
+      "categoria": "Calça",
+      "descricao": "Tecido leve, modelagem ampla e cintura alta.",
+      "tamanho": null,
+      "preco": 40,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/24-calca-pantalona-branca.jpg"
+      ]
+    },
+    {
+      "numero": 25,
+      "nome": "Calça jeans clara",
+      "categoria": "Calça",
+      "descricao": "Lavagem clarinha, cintura alta e perna reta.",
+      "tamanho": null,
+      "preco": 45,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/25-calca-jeans-clara.jpg"
+      ]
+    },
+    {
+      "numero": 26,
+      "nome": "Short sarja off-white Hering",
+      "categoria": "Short",
+      "descricao": "Bolsos grandes na frente, cintura alta.",
+      "tamanho": "44 | 34",
+      "preco": 35,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/26-short-sarja-off-white-hering-1.jpg",
+        "fotos/26-short-sarja-off-white-hering-2.jpg"
+      ]
+    },
+    {
+      "numero": 27,
+      "nome": "Calça moletom estampada",
+      "categoria": "Calça",
+      "descricao": "Off-white com estampas pretas e lilás nas pernas.",
+      "tamanho": null,
+      "preco": 35,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/27-calca-moletom-estampada.jpg"
+      ]
+    },
+    {
+      "numero": 28,
+      "nome": "Moletom preto com zíper",
+      "categoria": "Moletom",
+      "descricao": "Capuz, zíper frontal e forro felpudo.",
+      "tamanho": null,
+      "preco": 35,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/28-moletom-preto-com-ziper.jpg"
+      ]
+    },
+    {
+      "numero": 29,
+      "nome": "Tie-dye azul de alcinha",
+      "categoria": "Vestido",
+      "descricao": "Tie-dye azul e branco, alça fininha.",
+      "tamanho": null,
+      "preco": 25,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/29-tie-dye-azul-de-alcinha.jpg"
+      ]
+    },
+    {
+      "numero": 30,
+      "nome": "Cropped tie-dye preto e branco",
+      "categoria": "Top",
+      "descricao": "Canelado, decote quadrado e alça larga.",
+      "tamanho": null,
+      "preco": 18,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/30-cropped-tie-dye-preto-e-branco.jpg"
+      ]
+    },
+    {
+      "numero": 31,
+      "nome": "Cropped tie-dye verde-água",
+      "categoria": "Top",
+      "descricao": "Cropped de alcinha, tie-dye verde e marinho.",
+      "tamanho": null,
+      "preco": 18,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/31-cropped-tie-dye-verde-agua.jpg"
+      ]
+    },
+    {
+      "numero": 32,
+      "nome": "Baby tee Chicago",
+      "categoria": "Blusa",
+      "descricao": "Branca canelada com bordado verde.",
+      "tamanho": "S",
+      "preco": 20,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/32-baby-tee-chicago.jpg"
+      ]
+    },
+    {
+      "numero": 33,
+      "nome": "Calça pantalona preta",
+      "categoria": "Calça",
+      "descricao": "Cós franzido com amarração, tecido fluido.",
+      "tamanho": null,
+      "preco": 35,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/33-calca-pantalona-preta.jpg"
+      ]
+    },
+    {
+      "numero": 34,
+      "nome": "Legging Cortelle marinho",
+      "categoria": "Calça",
+      "descricao": "Cós transpassado em V na frente.",
+      "tamanho": "M",
+      "preco": 25,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/34-legging-cortelle-marinho-1.jpg",
+        "fotos/34-legging-cortelle-marinho-2.jpg"
+      ]
+    },
+    {
+      "numero": 35,
+      "nome": "Tênis branco estilo Air Force",
+      "categoria": "Tênis",
+      "descricao": "Réplica, com bastante sinal de uso.",
+      "tamanho": null,
+      "preco": 30,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/35-tenis-nike-air-force-branco.jpg"
+      ]
+    },
+    {
+      "numero": 36,
+      "nome": "Camiseta The Weeknd",
+      "categoria": "Blusa",
+      "descricao": "Preta com estampa rosa e roxa.",
+      "tamanho": "M",
+      "preco": 25,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/36-camiseta-the-weeknd.jpg"
+      ]
+    },
+    {
+      "numero": 54,
+      "nome": "Regata estampada com renda",
+      "categoria": "Blusa",
+      "descricao": "Estampa de folhagens em verde e azul, renda no decote e alcinhas finas.",
+      "tamanho": null,
+      "preco": 35,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/54.png"
+      ]
+    },
+    {
+      "numero": 55,
+      "nome": "Regata geométrica de alças duplas",
+      "categoria": "Blusa",
+      "descricao": "Estampa geométrica marinho, vermelha e branca, com alcinhas duplas.",
+      "tamanho": null,
+      "preco": 30,
+      "destaque": false,
+      "grupo": "Intermediárias",
+      "fotos": [
+        "fotos/55.png"
+      ]
+    },
+    {
+      "numero": 37,
+      "nome": "Cropped verde canelado",
+      "categoria": "Top",
+      "descricao": "Verde-garrafa, alça larga. Shein.",
+      "tamanho": "S / 36",
+      "preco": 15,
+      "destaque": false,
+      "grupo": "Básicas",
+      "fotos": [
+        "fotos/37-cropped-verde-canelado.jpg"
+      ]
+    },
+    {
+      "numero": 38,
+      "nome": "Top caramelo",
+      "categoria": "Top",
+      "descricao": "Tecido canelado, alças finas.",
+      "tamanho": null,
+      "preco": 15,
+      "destaque": false,
+      "grupo": "Básicas",
+      "fotos": [
+        "fotos/38-top-caramelo.jpg"
+      ]
+    },
+    {
+      "numero": 39,
+      "nome": "Cropped terracota",
+      "categoria": "Top",
+      "descricao": "Canelado, alcinha fina, cor quentinha.",
+      "tamanho": null,
+      "preco": 15,
+      "destaque": false,
+      "grupo": "Básicas",
+      "fotos": [
+        "fotos/39-cropped-terracota.jpg"
+      ]
+    },
+    {
+      "numero": 40,
+      "nome": "Cropped nude de alcinha",
+      "categoria": "Top",
+      "descricao": "Canelado, alças bem finas.",
+      "tamanho": null,
+      "preco": 12,
+      "destaque": false,
+      "grupo": "Básicas",
+      "fotos": [
+        "fotos/40-cropped-nude-de-alcinha.jpg"
+      ]
+    },
+    {
+      "numero": 41,
+      "nome": "Vestido preto canelado",
+      "categoria": "Vestido",
+      "descricao": "Modelagem longa em malha canelada.",
+      "tamanho": null,
+      "preco": 20,
+      "destaque": false,
+      "grupo": "Básicas",
+      "fotos": [
+        "fotos/41-regata-longa-preta-canelada.jpg"
+      ]
+    },
+    {
+      "numero": 42,
+      "nome": "Vestido marrom",
+      "categoria": "Vestido",
+      "descricao": "Malha macia, alças reguláveis.",
+      "tamanho": null,
+      "preco": 20,
+      "destaque": false,
+      "grupo": "Básicas",
+      "fotos": [
+        "fotos/42-regata-longa-rose.jpg"
+      ]
+    },
+    {
+      "numero": 43,
+      "nome": "Camiseta Bart Simpson",
+      "categoria": "Blusa",
+      "descricao": "Preta com estampa branca e laranja.",
+      "tamanho": null,
+      "preco": 20,
+      "destaque": false,
+      "grupo": "Básicas",
+      "fotos": [
+        "fotos/43-camiseta-bart-simpson.jpg"
+      ]
+    },
+    {
+      "numero": 44,
+      "nome": "Regata marrom canelada",
+      "categoria": "Blusa",
+      "descricao": "Alças finas, básica que combina com tudo.",
+      "tamanho": null,
+      "preco": 12,
+      "destaque": false,
+      "grupo": "Básicas",
+      "fotos": [
+        "fotos/44-regata-vinho-canelada.jpg"
+      ]
+    },
+    {
+      "numero": 45,
+      "nome": "Blusa mescla com botões",
+      "categoria": "Blusa",
+      "descricao": "Cinza mescla, abotoamento na frente.",
+      "tamanho": null,
+      "preco": 15,
+      "destaque": false,
+      "grupo": "Básicas",
+      "fotos": [
+        "fotos/45-blusa-mescla-com-botoes.jpg"
+      ]
+    },
+    {
+      "numero": 46,
+      "nome": "Camiseta amarela coqueiros",
+      "categoria": "Blusa",
+      "descricao": "Estampa de coqueiros, bem verão.",
+      "tamanho": null,
+      "preco": 15,
+      "destaque": false,
+      "grupo": "Básicas",
+      "fotos": [
+        "fotos/46-camiseta-amarela-coqueiros.jpg"
+      ]
+    },
+    {
+      "numero": 47,
+      "nome": "Tênis branco plataforma",
+      "categoria": "Tênis",
+      "descricao": "Sola alta, detalhe dourado no cadarço. Com sinais de uso.",
+      "tamanho": "36",
+      "preco": 30,
+      "destaque": false,
+      "grupo": "Básicas",
+      "fotos": [
+        "fotos/47-tenis-branco-plataforma.jpg"
+      ]
+    },
+    {
+      "numero": 48,
+      "nome": "Cropped cinza canelado",
+      "categoria": "Top",
+      "descricao": "Alça larga, decote redondo.",
+      "tamanho": null,
+      "preco": 12,
+      "destaque": false,
+      "grupo": "Básicas",
+      "fotos": [
+        "fotos/48-cropped-cinza-canelado.jpg"
+      ]
+    },
+    {
+      "numero": 49,
+      "nome": "Cropped branco canelado",
+      "categoria": "Top",
+      "descricao": "Básico, alça larga e barra ondulada.",
+      "tamanho": null,
+      "preco": 10,
+      "destaque": false,
+      "grupo": "Básicas",
+      "fotos": [
+        "fotos/49-cropped-branco-canelado.jpg"
+      ]
+    },
+    {
+      "numero": 50,
+      "nome": "Regata off-white canelada",
+      "categoria": "Blusa",
+      "descricao": "Básica, barra com acabamento ondulado.",
+      "tamanho": null,
+      "preco": 10,
+      "destaque": false,
+      "grupo": "Básicas",
+      "fotos": [
+        "fotos/50-regata-off-white-canelada.jpg"
+      ]
+    },
+    {
+      "numero": 51,
+      "nome": "Top nadador cinza",
+      "categoria": "Top",
+      "descricao": "Cinza mescla, costas nadador.",
+      "tamanho": null,
+      "preco": 10,
+      "destaque": false,
+      "grupo": "Básicas",
+      "fotos": [
+        "fotos/51-top-nadador-cinza.jpg"
+      ]
+    },
+    {
+      "numero": 52,
+      "nome": "Camiseta alien “Wanted”",
+      "categoria": "Blusa",
+      "descricao": "Estampa neon divertida em malha preta.",
+      "tamanho": null,
+      "preco": 15,
+      "destaque": false,
+      "grupo": "Básicas",
+      "fotos": [
+        "fotos/52-camiseta-alien-wanted.jpg"
+      ]
+    },
+    {
+      "numero": 53,
+      "nome": "Tênis preto de tecido",
+      "categoria": "Tênis",
+      "descricao": "Bem usado, para o dia a dia.",
+      "tamanho": "36",
+      "preco": 15,
+      "destaque": false,
+      "grupo": "Básicas",
+      "fotos": [
+        "fotos/53-tenis-preto-de-tecido.jpg"
+      ]
+    }
+  ]
+}

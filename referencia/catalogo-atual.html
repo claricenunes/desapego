@@ -1,0 +1,175 @@
+<title>Desapego da Clarice</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Caveat:wght@600&display=swap">
+<style>
+/* Layout: arara de peças — cada item é uma etiqueta de loja pendurada sobre a foto, numerada para facilitar o pedido no WhatsApp */
+:root{
+  --bg:#F2EDF5; --paper:#FFFFFF; --ink:#2A1B33; --muted:#6D5E78;
+  --accent:#D93A74; --tag:#E3C79E; --tag-ink:#3B2A18; --line:#E1D7E8; --wa:#1F8F4E;
+  --display:"Unbounded",system-ui,sans-serif;
+  --body:"DM Sans",system-ui,-apple-system,sans-serif;
+  --hand:"Caveat","Segoe Print",cursive;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#1B1320; --paper:#271C2E; --ink:#F4ECF7; --muted:#B7A8C2;
+  --accent:#FF6A9E; --tag:#C9A877; --tag-ink:#2A1C0E; --line:#3A2C43; --wa:#3DC27A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1B1320; --paper:#271C2E; --ink:#F4ECF7; --muted:#B7A8C2;
+  --accent:#FF6A9E; --tag:#C9A877; --tag-ink:#2A1C0E; --line:#3A2C43; --wa:#3DC27A; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:20px;padding-block:40px 64px}
+
+header{display:grid;gap:18px;padding-bottom:32px;border-bottom:1.5px dashed var(--line)}
+.eyebrow{font-family:var(--hand);font-size:1.6rem;color:var(--accent);line-height:1}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(3rem,11vw,6.5rem);line-height:.9;letter-spacing:-.03em;margin:0;text-wrap:balance}
+h1 span{color:var(--accent)}
+.lead{font-size:1.15rem;max-width:58ch;margin:0}
+.lead strong{font-weight:700}
+.chips{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0}
+.chips li{border:1.5px solid var(--ink);border-radius:999px;padding:4px 14px;font-weight:500;font-size:.9rem}
+
+.info{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:6px}
+.info div{background:var(--paper);border-radius:14px;padding:14px 16px;min-width:0}
+.info b{display:block;font-family:var(--display);font-weight:500;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+
+.contact{display:flex;flex-wrap:wrap;align-items:center;gap:12px}
+.wa{display:inline-flex;align-items:center;gap:10px;background:var(--wa);color:#fff;text-decoration:none;font-weight:700;padding:12px 20px;border-radius:999px;font-size:1.05rem}
+.wa:focus-visible,.copy:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.num{font-variant-numeric:tabular-nums;font-weight:700;font-size:1.1rem;user-select:all}
+.copy{font:inherit;font-size:.85rem;background:none;border:1.5px solid var(--ink);color:var(--ink);border-radius:999px;padding:6px 14px;cursor:pointer}
+
+.howto{font-family:var(--hand);font-size:1.45rem;color:var(--muted);margin:28px 0 20px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:28px 22px;list-style:none;padding:0;margin:0}
+.item{position:relative;min-width:0}
+.photo{position:relative;aspect-ratio:4/5;max-width:100%;border-radius:18px;overflow:hidden;background:var(--paper)}
+.photo .main{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
+.item:hover .photo .main{transform:scale(1.04)}
+.tag{position:absolute;top:14px;right:14px;background:var(--tag);color:var(--tag-ink);font-family:var(--display);font-weight:800;font-size:.9rem;padding:8px 12px 8px 22px;clip-path:polygon(12px 0,100% 0,100% 100%,12px 100%,0 50%);font-variant-numeric:tabular-nums}
+.tag::before{content:"";position:absolute;left:9px;top:50%;width:6px;height:6px;margin-top:-3px;border-radius:50%;background:var(--bg)}
+.item h3{font-family:var(--display);font-weight:500;font-size:1rem;margin:12px 0 2px;text-wrap:balance}
+.item p{margin:0;color:var(--muted);font-size:.93rem}
+.cat{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--accent);margin-top:12px}
+.best .tag{background:var(--accent);color:#fff}
+
+footer{margin-top:56px;padding-top:28px;border-top:1.5px dashed var(--line);display:grid;gap:14px}
+footer h2{font-family:var(--display);font-weight:800;font-size:clamp(1.6rem,5vw,2.4rem);margin:0;letter-spacing:-.02em}
+.thumbs{position:absolute;left:10px;bottom:10px;display:flex;gap:6px}
+.th{width:46px;height:46px;padding:0;border:2px solid transparent;border-radius:10px;overflow:hidden;cursor:pointer;background:var(--paper)}
+.th img{width:100%;height:100%;object-fit:cover;display:block}
+.th.on{border-color:var(--accent)}
+.th:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.photo .main{transition:none}}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">abrindo o guarda-roupa ✂</div>
+  <h1>Desa<span>pego</span></h1>
+  <p class="lead"><strong>Peças com preços acessíveis</strong>, em tamanhos entre <strong>PP e M/G</strong>. Tudo bem cuidado e pronto para um novo guarda-roupa.</p>
+  <ul class="chips" aria-label="Categorias">
+    <li>Calças</li><li>Sapatos</li><li>Tênis</li><li>Blusas</li><li>Vestidos</li><li>Tops</li><li>Moletons</li><li>Bolsa</li>
+  </ul>
+  <div class="info">
+    <div><b>Preço</b>Aceito propostas! Me faz uma oferta.</div>
+    <div><b>Retirada</b>No Sudoeste, Brasília</div>
+    <div><b>Tamanhos</b>Do PP ao M/G</div>
+  </div>
+  <div class="contact">
+    <a class="wa" href="https://wa.me/5561999449043?text=Oi!%20Vi%20o%20desapego%20e%20tenho%20interesse%20na%20pe%C3%A7a%20n%C2%BA%20" target="_blank" rel="noopener">Tem interesse? Me chama no WhatsApp</a>
+    <span class="num" id="num">(61) 99944-9043</span>
+    <button class="copy" id="copy" type="button">Copiar número</button>
+  </div>
+</header>
+
+<p class="howto">Gostou de alguma? É só mandar o número da etiqueta 👇</p>
+
+<ul class="grid" id="grid"></ul>
+
+<footer>
+  <h2>Tem interesse?</h2>
+  <p class="lead">Me chama no WhatsApp <strong>(61) 99944-9043</strong>. Pode fazer proposta de preço, e a retirada é no <strong>Sudoeste</strong>.</p>
+  <div class="contact"><a class="wa" href="https://wa.me/5561999449043" target="_blank" rel="noopener">Chamar no WhatsApp</a></div>
+</footer>
+</div>
+
+<script>
+const items=[
+ [["37","38"],"Sapatilha bordada Belluno","Sapato","Bico fino, bordado colorido e camurça vermelha.","36"],
+ [["48","49"],"Bolsa Santa Lolla","Bolsa","Tote nude com detalhes dourados, bolso interno com zíper.",""],
+ [["02"],"Tricô listrado neon","Tricô","Listras em verde-limão, pink, azul-marinho e amarelo. Muito alegre.",""],
+ [["50"],"Top tricô branco com laço","Top","Tricô canelado off-white com nó frontal e faixas de amarrar.",""],
+ [["04"],"Body preto com fivelas","Top","Decote com recortes e fivelas prateadas, alcinhas finas.",""],
+ [["51"],"Top tricô caramelo decote V","Top","Tricô canelado, decote V e alça larga.",""],
+ [["45"],"Tênis All Star caramelo","Tênis","Cano baixo em material sintético caramelo, ilhoses dourados.",""],
+ [["33"],"Saia de tricô vazada","Saia","Tricô preto em trama aberta, cós canelado.",""],
+ [["57"],"Top tricô magenta","Top","Tricô com textura em faixas, alça larga.",""],
+ [["54"],"Top tricô preto","Top","Mesmo modelo do magenta, textura em faixas.",""],
+ [["12"],"Short estampado tropical","Short","Estampa laranja e turquesa, com botão e bolsos.",""],
+ [["13"],"Bata turquesa bordada","Blusa","Bordado rosa com amarração e pompom na gola.",""],
+ [["14"],"Bata branca bordada","Blusa","Tecido leve com bordados coloridos nas mangas.",""],
+ [["32"],"Regata pink com renda","Blusa","Canelada, com renda no busto e nas alças.",""],
+ [["55"],"Regata pink com renda Bluesteel","Blusa","Tecido leve com renda no decote, alças finas.","G"],
+ [["22"],"Cropped branco franzido","Top","Acetinado, com franzido no busto e alças finas.",""],
+ [["58","59","60"],"Vestido tricô cinza gola alta","Vestido","Canelado, manga longa e saia evasê. Bluesteel.","GG"],
+ [["40"],"Moletom \u201cWinning is a habit\u201d","Moletom","Cinza mescla e azul-petróleo, frase em alto-relevo.",""],
+ [["39"],"Moletom verde-água Bluesteel","Moletom","Canguru com capuz, cor clarinha.","P"],
+ [["06"],"Saia camurça caramelo","Saia","Toque de suede, com botões na lateral.",""],
+ [["56"],"Body transpassado marinho","Top","Manga curta, decote transpassado. Unique Chic.",""],
+ [["31"],"Camiseta galáxia Youcom","Blusa","Cinza estonada com margaridas e planetas.",""],
+ [["43","44"],"Havaianas rosê com glitter","Sapato","Tiras com glitter e logo dourado.","35-36"],
+ [["34"],"Calça pantalona branca","Calça","Tecido leve, modelagem ampla e cintura alta.",""],
+ [["28"],"Calça jeans clara","Calça","Lavagem clarinha, cintura alta e perna reta.",""],
+ [["26","27"],"Short sarja off-white Hering","Short","Bolsos grandes na frente, cintura alta.","44 | 34"],
+ [["24"],"Calça moletom estampada","Calça","Off-white com estampas pretas e lilás nas pernas.",""],
+ [["41"],"Moletom preto com zíper","Moletom","Capuz, zíper frontal e forro felpudo.",""],
+ [["03"],"Tie-dye azul de alcinha","Vestido","Tie-dye azul e branco, alça fininha.",""],
+ [["21"],"Cropped tie-dye preto e branco","Top","Canelado, decote quadrado e alça larga.",""],
+ [["07"],"Cropped tie-dye verde-água","Top","Cropped de alcinha, tie-dye verde e marinho.",""],
+ [["25"],"Baby tee Chicago","Blusa","Branca canelada com bordado verde.","S"],
+ [["36"],"Calça pantalona preta","Calça","Cós franzido com amarração, tecido fluido.",""],
+ [["52","53"],"Legging Cortelle marinho","Calça","Cós transpassado em V na frente.","M"],
+ [["46"],"Tênis Nike Air Force branco","Tênis","Clássico branco, com sinais de uso.",""],
+ [["23"],"Camiseta The Weeknd","Blusa","Preta com estampa rosa e roxa.","M"],
+ [["19"],"Cropped verde canelado","Top","Verde-garrafa, alça larga. Shein.","S / 36"],
+ [["05"],"Top caramelo","Top","Tecido canelado, alças finas.",""],
+ [["11"],"Cropped terracota","Top","Canelado, alcinha fina, cor quentinha.",""],
+ [["20"],"Cropped nude de alcinha","Top","Canelado, alças bem finas.",""],
+ [["10"],"Regata longa preta canelada","Vestido","Modelagem longa em malha canelada.",""],
+ [["17"],"Regata longa rosê","Vestido","Malha macia, alças reguláveis.",""],
+ [["29"],"Camiseta Bart Simpson","Blusa","Preta com estampa branca e laranja.",""],
+ [["09"],"Regata vinho canelada","Blusa","Alças finas, básica que combina com tudo.",""],
+ [["01"],"Blusa mescla com botões","Blusa","Cinza mescla, abotoamento na frente.",""],
+ [["15"],"Camiseta amarela coqueiros","Blusa","Estampa de coqueiros, bem verão.",""],
+ [["47"],"Tênis branco plataforma","Tênis","Sola alta, detalhe dourado no cadarço. Com sinais de uso.",""],
+ [["16"],"Cropped cinza canelado","Top","Alça larga, decote redondo.",""],
+ [["30"],"Cropped branco canelado","Top","Básico, alça larga e barra ondulada.",""],
+ [["08"],"Regata off-white canelada","Blusa","Básica, barra com acabamento ondulado.",""],
+ [["35"],"Top nadador cinza","Top","Cinza mescla, costas nadador.",""],
+ [["18"],"Camiseta alien \u201cWanted\u201d","Blusa","Estampa neon divertida em malha preta.",""],
+ [["42"],"Tênis preto de tecido","Tênis","Bem usado, para o dia a dia.",""]
+];
+const g=document.getElementById('grid');
+items.forEach(([imgs,name,cat,desc,size],i)=>{
+  const n=String(i+1).padStart(2,'0');
+  const li=document.createElement('li');
+  li.className='item'+(i<3?' best':'');
+  const thumbs=imgs.length>1?`<div class="thumbs">${imgs.map((s,k)=>`<button type="button" class="th${k?'':' on'}" data-src="img/${s}.jpg" aria-label="Foto ${k+1}"><img src="img/${s}.jpg" alt=""></button>`).join('')}</div>`:'';
+  li.innerHTML=`<div class="photo"><img class="main" src="img/${imgs[0]}.jpg" alt="${name}" loading="${i<6?'eager':'lazy'}">${thumbs}</div>
+  <span class="tag">Nº ${n}</span><span class="cat">${cat}${size?` · Tam. ${size}`:''}</span><h3>${name}</h3><p>${desc}</p>`;
+  g.appendChild(li);
+});
+g.addEventListener('click',e=>{
+  const b=e.target.closest('.th'); if(!b) return;
+  const item=b.closest('.item'); item.querySelector('.main').src=b.dataset.src;
+  item.querySelectorAll('.th').forEach(t=>t.classList.toggle('on',t===b));
+});
+document.getElementById('copy').addEventListener('click',e=>{
+  const b=e.currentTarget;
+  navigator.clipboard.writeText('61999449043').then(()=>{b.textContent='Copiado!'}).catch(()=>{
+    const r=document.createRange();r.selectNodeContents(document.getElementById('num'));
+    const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selecionado';
+  });
+  setTimeout(()=>b.textContent='Copiar número',2000);
+});
+</script>
