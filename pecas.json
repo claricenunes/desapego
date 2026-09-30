@@ -338,6 +338,7 @@
       "preco": 40,
       "destaque": false,
       "grupo": "Intermediárias",
+      "vendido": true,
       "fotos": [
         "fotos/24-calca-pantalona-branca.jpg"
       ]
