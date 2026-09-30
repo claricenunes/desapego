@@ -96,6 +96,7 @@
       "preco": 50,
       "destaque": false,
       "grupo": "Especiais",
+      "vendido": true,
       "fotos": [
         "fotos/07-tenis-all-star-caramelo.jpg"
       ]
